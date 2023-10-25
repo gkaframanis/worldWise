@@ -3,7 +3,7 @@ import styles from "./AppLayout.module.css";
 import Map from "../components/Map.jsx";
 import User from "../components/User.jsx";
 
-export const AppLayout = () => {
+const AppLayout = () => {
   return (
     <div className={styles.app}>
       <Sidebar />
@@ -12,3 +12,5 @@ export const AppLayout = () => {
     </div>
   );
 };
+
+export default AppLayout;
